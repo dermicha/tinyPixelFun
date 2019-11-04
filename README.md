@@ -29,4 +29,4 @@ Simple ATTiny85 Neopixel Example
 ## Bauanteilung (work in progress)
 
 Hier findest Du die Anleitung zum Aufbau der Schaltung:
-* [Bauanleitung](https://htmlpreview.github.io/?https://github.com/dermicha/tinyPixelFun/blob/master/Bauanleitung/CMS-CoderDojo.html)
+* [Bauanleitung](https://htmlpreview.github.io/?https://github.com/dermicha/tinyPixelFun/blob/master/Bauanleitung/CMS-CoderDojo.html){:target="_blank" rel="noopener"}
