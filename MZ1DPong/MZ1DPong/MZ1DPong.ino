@@ -13,15 +13,15 @@
 
 // Define the array of leds
 CRGB leds[NUM_LEDS];
-
 CRGB playerStateColors[4];
-
 CRGB pongColor = CRGB::Blue;
 
+//Player 1
 int p1 = 0;
 int p1Button = 0;
 int p1State = 0;
 
+//Player 2
 int p2 = NUM_LEDS-1;
 int p2Button = 0;
 int p2State = 0;
@@ -29,8 +29,8 @@ int p2State = 0;
 int cIdx = p1 + int(NUM_LEDS / 2);
 int offset = 1;
 
-int currentDelay = 100;
-int deltaDelay = 10;
+int currentDelay = 150;
+int deltaDelay = 5;
 int minDelay = 20;
 
 void resetPlayerStates() {
@@ -76,11 +76,11 @@ void loop() {
   cIdx = cIdx + offset;
   leds[cIdx] = pongColor;
 
-  if( (p1Button > 0 && cIdx != (p1+1)) || (p1Button == 0 && cIdx == (p1 +1)) ){
+  if( (p1Button > 0 && cIdx != (p1+1)) || (p1Button == 0 && cIdx <= (p1 + 1)) ){
       p1State = incPlayerState(p1State);
   }
 
-  if( (p2Button > 0 && cIdx != (p2-1)) || (p2Button == 0 && cIdx == (p2-1)) ){
+  if( (p2Button > 0 && cIdx != (p2-1)) || (p2Button == 0 && cIdx >= (p2-1)) ){
     p2State = incPlayerState(p2State);
   }
     
@@ -93,10 +93,6 @@ void loop() {
   
   delay(currentDelay);
 
-  if(p1Button > 0 && p1State == 3)
-    resetPlayerStates();
-
-  if(p2Button > 0 && p2State == 3)
-    resetPlayerStates();
-  
+  if( (p1Button > 0 && p1State == 3) && (p2Button > 0 && p2State == 3))
+    resetPlayerStates();  
 }
