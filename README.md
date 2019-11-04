@@ -1,5 +1,5 @@
 # tinyPixelFun
-Simple ATTiny85 Neopixel Example
+Bauanleitung für einen ATTiny85 basierten WS2812b Kontroller. Eine Reihe an Beispielen veranschauliche was der ATtiny85 so kann.
 
 # Bauteile
 
@@ -26,10 +26,10 @@ Simple ATTiny85 Neopixel Example
 * 1x 10k Pullup Widerstand 
 * Kosten ca. 0,30 Eur
 
-## Bauanteilung (work in progress)
+## Bauanteilung (noch in Bearbeitung)
 
 Hier findest Du die Anleitung zum Aufbau der Schaltung:
-* [Bauanleitung](https://htmlpreview.github.io/?https://github.com/dermicha/tinyPixelFun/blob/master/Bauanleitung/CMS-CoderDojo.html){:target="_blank" rel="noopener"}
+* [Bauanleitung](https://htmlpreview.github.io/?https://github.com/dermicha/tinyPixelFun/blob/master/Bauanleitung/CMS-CoderDojo.html)
 
 ## Examples
 
@@ -37,6 +37,10 @@ Hier findest Du die Anleitung zum Aufbau der Schaltung:
 
 Ganz einfaches Beispiel. Eine Standard LED wird zum blinken gebracht. 
 
-### BouncinBall
+### BouncinBalls
 
-Neopixel and simple physics 
+Mit ein wenig Physik werden Bälle zum hüpfen gebracht
+
+### MZ1DPong
+
+Erste Version eines 1D Pong Spiels. Dieses Spiel benötigt 2 Taster, für jeden Spieler einen.  
