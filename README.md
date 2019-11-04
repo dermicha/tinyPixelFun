@@ -1,5 +1,5 @@
 # tinyPixelFun
-Bauanleitung für einen ATTiny85 basierten WS2812b Kontroller. Eine Reihe an Beispielen veranschauliche was der ATtiny85 so kann.
+Bauanleitung für einen ATTiny85 basierten WS2812b Kontroller. Eine Reihe an Beispielen veranschaulichen was der ATtiny85 so kann.
 
 # Bauteile
 
@@ -43,4 +43,4 @@ Mit ein wenig Physik werden Bälle zum hüpfen gebracht
 
 ### MZ1DPong
 
-Erste Version eines 1D Pong Spiels. Dieses Spiel benötigt 2 Taster, für jeden Spieler einen.  
+Erste Version eines 1D Pong Spiels. Dieses Spiel benötigt 2 Taster, für jeden Spieler einen (2x Option 2).  
