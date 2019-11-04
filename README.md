@@ -3,7 +3,7 @@ Simple ATTiny85 Neopixel Example
 
 # Bauteile
 
-# Basis Set
+## Basis Set
 
 * ATtiny85 20MHz
 * 8 Pin IC Sockel
@@ -29,4 +29,4 @@ Simple ATTiny85 Neopixel Example
 ## Bauanteilung (work in progress)
 
 Hier findest Du die Anleitung zum Aufbau der Schaltung:
-* [Bauanleitung](Bauanteilung/CMS-CoderDojo.html)
+* [Bauanleitung](Bauanleitung/CMS-CoderDojo.html)
