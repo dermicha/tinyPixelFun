@@ -29,7 +29,7 @@ Bauanleitung für einen ATTiny85 basierten WS2812b Kontroller. Eine Reihe an Bei
 ## Bauanteilung (noch in Bearbeitung)
 
 Hier findest Du die Anleitung zum Aufbau der Schaltung:
-* [Bauanleitung](https://htmlpreview.github.io/?https://github.com/dermicha/tinyPixelFun/blob/master/Bauanleitung/CMS-CoderDojo.html)
+* [Bauanleitung](https://htmlpreview.github.io/?https://github.com/dermicha/tinyPixelFun/blob/master/Bauanleitung/html/index.html)
 
 ## Examples
 
@@ -39,7 +39,7 @@ Ganz einfaches Beispiel. Eine Standard LED wird zum blinken gebracht.
 
 ### BouncinBalls
 
-Mit ein wenig Physik werden Bälle zum hüpfen gebracht
+Mit ein wenig Physik werden Bälle zum hüpfen gebracht. Mit Option 2 kann die Anzahl der Bälle verändert werden.
 
 ### MZ1DPong
 
