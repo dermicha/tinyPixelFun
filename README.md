@@ -31,3 +31,12 @@ Simple ATTiny85 Neopixel Example
 Hier findest Du die Anleitung zum Aufbau der Schaltung:
 * [Bauanleitung](https://htmlpreview.github.io/?https://github.com/dermicha/tinyPixelFun/blob/master/Bauanleitung/CMS-CoderDojo.html){:target="_blank" rel="noopener"}
 
+## Examples
+
+### SimpleBlink 
+
+Ganz einfaches Beispiel. Eine Standard LED wird zum blinken gebracht. 
+
+### BouncinBall
+
+Neopixel and simple physics 

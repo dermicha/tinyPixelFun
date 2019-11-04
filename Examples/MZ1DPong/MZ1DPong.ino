@@ -1,5 +1,6 @@
 #include <FastLED.h>
 #include "SoftwareSerial.h"
+#include <avr/power.h>
 
 // How many leds in your strip?
 #define NUM_LEDS 20
@@ -46,6 +47,8 @@ int incPlayerState(int ps) {
 }
 
 void setup() { 
+      clock_prescale_set(clock_div_1);
+      
       pinMode(P1_PIN,INPUT);
       pinMode(P2_PIN,INPUT);
 
