@@ -1,6 +1,8 @@
 # tinyPixelFun
 Bauanleitung für einen ATTiny85 basierten WS2812b Kontroller. Eine Reihe an Beispielen veranschaulichen was der ATtiny85 so kann.
 
+![](./img/led-stripe.png)
+
 # Bauteile
 
 ## Basis Set

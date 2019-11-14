@@ -1,4 +1,5 @@
 #include <FastLED.h>
+#include <avr/power.h>
 
 // How many leds in your strip?
 #define NUM_LEDS 20 
@@ -12,6 +13,8 @@
 CRGB leds[NUM_LEDS];
 
 void setup() { 
+  clock_prescale_set(clock_div_1);
+  
 	LEDS.addLeds<WS2812,DATA_PIN,RGB>(leds,NUM_LEDS);
 	LEDS.setBrightness(84);
 }

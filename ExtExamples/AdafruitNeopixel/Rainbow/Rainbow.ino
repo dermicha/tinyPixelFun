@@ -11,16 +11,14 @@
 // (Skipping these may work OK on your workbench but can fail in the field)
 
 #include <Adafruit_NeoPixel.h>
-#ifdef __AVR__
- #include <avr/power.h> // Required for 16 MHz Adafruit Trinket
-#endif
+#include <avr/power.h> // Required for 16 MHz Adafruit Trinket
 
 // Which pin on the Arduino is connected to the NeoPixels?
 // On a Trinket or Gemma we suggest changing this to 1:
 #define LED_PIN    0
 
 // How many NeoPixels are attached to the Arduino?
-#define LED_COUNT 20
+#define LED_COUNT 100
 
 // Declare our NeoPixel strip object:
 Adafruit_NeoPixel strip(LED_COUNT, LED_PIN, NEO_GRB + NEO_KHZ800);
@@ -28,7 +26,7 @@ Adafruit_NeoPixel strip(LED_COUNT, LED_PIN, NEO_GRB + NEO_KHZ800);
 
 // setup() function -- runs once at startup --------------------------------
 void setup() {
-  clock_prescale_set(clock_div_2);
+  clock_prescale_set(clock_div_1);
 
   strip.begin();           // INITIALIZE NeoPixel strip object (REQUIRED)
   strip.show();            // Turn OFF all pixels ASAP
@@ -39,7 +37,7 @@ void setup() {
 // loop() function -- runs repeatedly as long as board is on ---------------
 
 void loop() {
-  rainbow(10);             // Flowing rainbow cycle along the whole strip
+  rainbow(5);             // Flowing rainbow cycle along the whole strip
 }
 
 // Rainbow cycle along whole strip. Pass delay time (in ms) between frames.
