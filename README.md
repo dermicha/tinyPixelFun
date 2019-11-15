@@ -30,6 +30,8 @@ Bauanleitung für einen ATTiny85 basierten WS2812b Kontroller. Eine Reihe an Bei
 
 ## Bauanteilung (noch in Bearbeitung)
 
+![](./img/led-stripe-2.jpg)
+
 Hier findest Du die Anleitung zum Aufbau der Schaltung:
 * [Bauanleitung](https://htmlpreview.github.io/?https://github.com/dermicha/tinyPixelFun/blob/master/Bauanleitung/html/index.html)
 
