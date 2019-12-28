@@ -3,6 +3,10 @@ Bauanleitung für einen ATTiny85 basierten WS2812b Kontroller. Eine Reihe an Bei
 
 ![](./img/led-stripe.png)
 
+# Arduino IDE Erweiterungen
+
+https://raw.githubusercontent.com/damellis/attiny/ide-1.6.x-boards-manager/package_damellis_attiny_index.json
+
 # Bauteile
 
 ## Basis Set
