@@ -22,6 +22,8 @@ https://raw.githubusercontent.com/damellis/attiny/ide-1.6.x-boards-manager/packa
 * 1x WS2812b Anschlussklemme mit Kabel (3 Kabel)
 * Kosten ca. 5-6 Eur
 
+Es kann auch ein PCB verwendet werden, diesen findet ihr [hier](https://aisler.net/dermicha770/sandbox/t85-eeae15d1-f48c-4a13-b2ec-17ab43637273).
+
 ## Option 1
 * 1x 220 Ohm Vorwiderstand
 * 1x LED (bel. Farbe)
@@ -37,7 +39,7 @@ https://raw.githubusercontent.com/damellis/attiny/ide-1.6.x-boards-manager/packa
 ![](./img/led-stripe-2.jpg)
 
 Hier findest Du die Anleitung zum Aufbau der Schaltung:
-* [Bauanleitung](https://htmlpreview.github.io/?https://github.com/dermicha/tinyPixelFun/blob/master/Bauanleitung/html/index.html)
+* [Bauanleitung](https://github.com/dermicha/tinyPixelFun/blob/master/Bauanleitung/TinyPixelFun_Bauanleitung.odp)
 
 ## Examples
 
